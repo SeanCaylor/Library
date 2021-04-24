@@ -1,0 +1,135 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Blue drop boxed button*/
+.btn { 
+    background-color: #2A78E4;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 40px;
+    width: 170px;
+    font-size: 16px;
+    font-weight: lighter;
+    box-shadow: 3px 3px black;
+    margin-left: 60px;
+}
+
+/*Blue circular button*/
+.btn {
+    background-color: #00D1B2;
+    color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: #00D1B2;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+/*Wintergreen long oval button*/
+.btn {
+    background-color: #F5F5F5;
+    color: #64BEBF;
+    border-style: solid;
+    border-color: #64BEBF;
+    border-radius: 25px;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 60px 60px 10px;
+}
+
+/*Dark blue dropboxed button with hover function*/
+.btnSignOut {
+    flex: 1;
+    margin-right: 15px;
+    background-color: #198294;
+    border: solid black;
+    color: white;
+    box-shadow: 4px 4px black;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnSignOut:hover {
+    background-color: #115E6B;
+}
+
+/*A flex column*/
+.col {
+    background-color: #528489;
+    color: #FFFFFF;
+    text-align: justify;
+    flex: 1;
+    margin: 0px 5px;
+    padding: 25px 0px;
+    padding-left: 25px;
+}
+
+/*Fixed dark grey stripe bar, stays static at top of screen*/
+.navBar {
+    background-color: #2B2B2B;
+    color: #A2A2A2;
+    display: flex;
+    font-weight: bold;
+    padding: 20px 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/*A style for links, with a hover function. Note needs html: 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    to function*/
+.navLinks {
+    text-decoration: none;
+    color: #A2A2A2;
+    flex: 1;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navLinks:hover{
+    color: #FFFFFF;
+}
+
+/*A good, even container for links in the "ul/li" style*/
+.navLinksCont {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 0%;
+    flex: 1;
+}
+
+/*Title font and color information for navbar*/
+.navTitle {
+    font-weight: bolder;
+    color: #FFFFFF;
+    flex: 1;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*A flex row*/
+.row {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    justify-content: space-between;
+}
+
